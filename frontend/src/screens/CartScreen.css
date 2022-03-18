@@ -26,6 +26,11 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
   }
+
+  .cartscreen__right div:last-child {
+    border: none;
+  }
+  
   
   .cartscreen__info p {
     padding: 8px;
@@ -35,10 +40,7 @@
     font-weight: bold;
   }
   
-  .cartscreen__right div:last-child {
-    border: none;
-  }
-  
+
   .cartscreen__right div button {
     padding: 10px 17px;
     width: 100%;
