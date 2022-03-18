@@ -63,12 +63,11 @@
   @media (max-width: 960px) {
     .cartscreen {
       max-width: 800px;
-    }
-  }
-  
-  @media (max-width: 960px) {
-    .cartscreen {
       flex-direction: column;
+    }
+    .cartscreen__left {
+      margin: 0;
+
     }
   
     .cartscreen__right {
